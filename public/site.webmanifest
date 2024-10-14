@@ -1,0 +1,14 @@
+{
+    "name": "TMR",
+    "short_name": "TMR",
+    "icons": [
+        {
+            "src": "/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#173072",
+    "background_color": "#173072",
+    "display": "standalone"
+}

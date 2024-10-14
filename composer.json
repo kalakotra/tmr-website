@@ -1,0 +1,53 @@
+{
+    "name": "kalakotra/tmr-website",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "~4.10.0@stable",
+        "silverstripe-themes/simple": "~3.2.0",
+        "silverstripe/login-forms": "~4.6.0@stable",
+        "silverstripe/googlesitemaps": "^2.1",
+        "axllent/silverstripe-scss": "^1.7",
+        "axllent/silverstripe-minifier": "^1.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3.2",
+        "bummzack/sortablefile": "^2.1",
+        "axllent/silverstripe-meta-editor": "^1.2",
+        "jonom/focuspoint": "^3.1",
+        "buckleshusky/fontawesomeiconpicker": "^1.0",
+        "tractorcow/silverstripe-fluent": "5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "resources-dir": "_resources",
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Amir Mehmedovic",
+            "email": "kalakotra@gmail.com",
+            "homepage": "https://brandfisher.de",
+            "role": "Developer"
+        }
+    ]
+}
